@@ -1,0 +1,53 @@
+folder: yolo_dataset_9
+
+cases:
+
+- name: mri01
+  split: train
+  image: "T2 for segmentation/sub-001_ses-1_acq-RARE_T2w.nii"
+  mask: "Other/1_Segmentation.segrat1V.nrrd"
+
+- name: mri02
+  split: val
+  image: "T2 for segmentation/sub-002_ses-1_acq-RARE_T2w.nii"
+  mask: "Other/2_Segmentation.segrat2V.nrrd"
+
+- name: mri03
+  split: test
+  image: "T2 for segmentation/sub-003_ses-1_acq-RARE_T2w.nii"
+  mask: "Other/3_Segmentation.segrat3V.nrrd"
+
+- name: mri04
+  split: train
+  image: "T2 for segmentation/sub-004_ses-1_acq-RARE_T2w.nii"
+  mask: "Other/4_Segmentation.segrat4V.nrrd"
+
+- name: mri05
+  split: train
+  image: "T2 for segmentation/sub-005_ses-1_acq-RARE_T2w.nii"
+  mask: "Other/5_Segmentation.segrat5V.nrrd"
+
+- name: mri06
+  split: train
+  image: "T2 for segmentation/sub-006_ses-1_acq-RARE_T2w.nii"
+  mask: "Other/6_Segmentation.segrat6V.nrrd"
+
+- name: mri07
+  split: train
+  image: "T2 for segmentation/sub-007_ses-1_acq-RARE_T2w.nii"
+  mask: "Other/7_Segmentation.segrat7V.nrrd"
+
+- name: mri08
+  split: train
+  image: "T2 for segmentation/sub-008_ses-1_acq-RARE_T2w.nii"
+  mask: "Other/8_Segmentation.segrat8V.nrrd"
+
+- name: mri09
+  split: train
+  image: "T2 for segmentation/sub-009_ses-1_acq-RARE_T2w.nii"
+  mask: "Other/9_Segmentation.segrat9V.nrrd"
+
+- name: mri10
+  split: train
+  image: "T2 for segmentation/sub-010_ses-1_acq-RARE_T2w.nii"
+  mask: "Other/10_Segmentation.segrat10V.nrrd"

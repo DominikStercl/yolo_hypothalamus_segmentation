@@ -1,0 +1,18 @@
+folder: yolo_dataset_2
+
+cases:
+
+- name: mri01
+  split: train
+  image: "T2 for segmentation/sub-001_ses-1_acq-RARE_T2w.nii"
+  mask: "Other/1_Segmentation.segrat1V.nrrd"
+
+- name: mri02
+  split: val
+  image: "T2 for segmentation/sub-002_ses-1_acq-RARE_T2w.nii"
+  mask: "Other/2_Segmentation.segrat2V.nrrd"
+
+- name: mri03
+  split: test
+  image: "T2 for segmentation/sub-003_ses-1_acq-RARE_T2w.nii"
+  mask: "Other/3_Segmentation.segrat3V.nrrd"
